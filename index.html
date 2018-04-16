@@ -1,13 +1,144 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800,900&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
-    this is test application
+    <div class="page">
+        <section class="page__main">
+            <div class="block" data-key="1"><h3>who</h3></div>
+            <div class="block" data-key="2"><h3>why</h3></div>
+            <div class="block" data-key="3"><h3>work</h3></div>
+            <div class="block" data-key="4"><h3>future</h3></div>
+            <div class="block" data-key="5"><h3>no</h3></div>
+            <div class="block block__group">
+                <div class="block" data-key="6"><h3></h3></div>
+                <div class="block" data-key="7"><h3></h3></div>
+            </div>
+            <div class="block block__center">
+                <h1>Dmitry Nikitsenko.</h1>
+                <p>
+                    Frontend developer
+                    <span class="plus">+</span>
+                    Economist-Analyst
+                </p>
+            </div>
+            <div class="block block__group">
+                <div class="block" data-key="8"><h3>yes</h3></div>
+                <div class="block" data-key="9"><h3>like</h3></div>
+            </div>
+            <div class="block" data-key="10"><h3>resume #2</h3></div>
+            <div class="block" data-key="11"><h3>contacts</h3></div>
+            <div class="block" data-key="12"><h3>resume #1</h3></div>
+            <div class="block" data-key="13"><h3></h3></div>
+            <div class="block" data-key="14"><h3>dislike</h3></div>
+        </section>
+        <section class="page__content">
+            <article class="window" data-key="1">
+                <button type="button" class="close">close <span class="plus">+</span></button>
+                <h2 class="window__header">Who</h2>
+                <p class="window__body">
+                    Hello, my name is Dmitry. I'm glad that you decided to visit my site and here I will
+                    tell about myself in a few words. I'm 30 year old and I live in Belarus in Minsk. I am a very
+                    kind and sociable person and will help in a difficult moment. I love cats and web programming.
+                    To find out more about me, choose one of these wonderful photos.
+                </p>
+            </article>
+            <article class="window" data-key="2">
+                <button type="button" class="close">close <span class="plus">+</span></button>
+                <h2 class="window__header">Why</h2>
+                <p class="window__body">
+                    If you visited my site, then you are now looking for a new employee. Perhaps you are looking for
+                    an experienced analyst who will help you get your order with your data, structure it and give it
+                    to you in a beautiful cover. Perhaps you are looking for a beginner web developer with burning
+                    eyes and a great desire to work and comprehend new spaces. If so, then I'm exactly who you need
+                    and try to do everything possible to justify your hopes.
+                </p>
+            </article>
+            <article class="window" data-key="3">
+                <button type="button" class="close">close <span class="plus">+</span></button>
+                <h2 class="window__header">Work</h2>
+                <p class="window__body">
+                    The last place where I was supposed to work was the company Promis Alliance. It is engaged in the
+                    production and wholesale of spare parts. It is a wonderful company and it employs many wonderful
+                    people. In it, I worked as an economist-analyst and in my work was a lot of fun, but in the end
+                    it's time to get upset to start the steps towards web programming, to which I myself studied for
+                    several years.
+                </p>
+            </article>
+            <article class="window" data-key="4">
+                <button type="button" class="close">close <span class="plus">+</span></button>
+                <h2 class="window__header">Future</h2>
+                <p class="window__body">
+                    In the future, I see myself as a great frontend developer. After being a persistent and
+                    purposeful person with a great desire to learn new things, I simply have to be.
+                </p>
+            </article>
+            <article class="window" data-key="5">
+                <button type="button" class="close">close <span class="plus">+</span></button>
+                <h2 class="window__header">No</h2>
+                <p class="window__body">
+                    I never make loud statements, I do not boast and do not ascribe myself to other people's
+                    achievements. I am an honest, kind and open person.
+                </p>
+            </article>
+            <article class="window" data-key="8">
+                <button type="button" class="close">close <span class="plus">+</span></button>
+                <h2 class="window__header">No</h2>
+                <p class="window__body">
+                    I am always glad to new acquaintances, new people and the smiles of others. I always say yes
+                    to new interesting undertakings.
+                </p>
+            </article>
+            <article class="window" data-key="9">
+                <button type="button" class="close">close <span class="plus">+</span></button>
+                <h2 class="window__header">Like</h2>
+                <p class="window__body">
+                    Cats, code and web
+                </p>
+            </article>
+            <article class="window" data-key="10">
+                <button type="button" class="close">close <span class="plus">+</span></button>
+                <h2 class="window__header">Resume #2</h2>
+                <p class="window__body">
+                    <a href="./docs/dmitrynikitsenko-v1.pdf" target="_blank">Download</a>
+                    my resume for the position of Analyst-economist.
+                </p>
+            </article>
+            <article class="window" data-key="11">
+                <button type="button" class="close">close <span class="plus">+</span></button>
+                <h2 class="window__header">Contacts</h2>
+                <p class="window__body">
+                    Phone number: +375293253865 <br>
+                    Email: d.nikitsenko@gmail.com <br>
+                    Location: Belarus, Minsk
+                </p>
+            </article>
+            <article class="window" data-key="12">
+                <button type="button" class="close">close <span class="plus">+</span></button>
+                <h2 class="window__header">Resume #1</h2>
+                <p class="window__body">
+                    <a href="./docs/dmitrynikitsenko-v2.pdf" target="_blank">Download</a>
+                    my resume for the position of Frontend developer, Junior javascript developer.
+                </p>
+            </article>
+            <article class="window" data-key="14">
+                <button type="button" class="close">close <span class="plus">+</span></button>
+                <h2 class="window__header">Dislike</h2>
+                <p class="window__body">
+                    CMS, politics and injustice.
+                </p>
+            </article>
+        </section>
+    </div>
+
+    <script src="./js/app.js"></script>
 </body>
 </html>
