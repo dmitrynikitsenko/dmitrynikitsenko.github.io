@@ -2,7 +2,6 @@
 
   function init() {
     const blocks = document.querySelectorAll('.block[data-key]');
-    const mainPage = document.querySelector('.page__main');
     const contentPage = document.querySelector('.page__content');
     const closeButton = document.querySelectorAll('button.close');
 
@@ -15,7 +14,6 @@
       const header = windowContent.querySelector('h2');
       const content = windowContent.querySelector('p');
 
-      mainPage.classList.add('disable');
       contentPage.classList.add('enable');
 
       setTimeout(()=> {
@@ -38,7 +36,6 @@
 
         setTimeout(() => {
           contentPage.classList.remove('enable');
-          mainPage.classList.remove('disable');
         }, 500);
       }, 1000);
 
