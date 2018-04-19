@@ -81,10 +81,6 @@ a {
     transition: .3s;
 }
 
-.page__main.disable {
-    filter: blur(5px);
-}
-
 .block {
     cursor: pointer;
     filter: grayscale(100%);
